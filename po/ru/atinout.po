@@ -18,5 +18,9 @@ msgid "Execute modem AT-command"
 msgstr "Выполнить команду АТ"
 
 #: applications/luci-app-atinout/luasrc/view/modem/command.htm:11
+msgid "Be Careful"
+msgstr "Это может нарушить работу устройства!"
+
+#: applications/luci-app-atinout/luasrc/view/modem/command.htm:12
 msgid "Press Enter to execute"
 msgstr "Нажмите Enter для выполнения"
