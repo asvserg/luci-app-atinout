@@ -18,8 +18,8 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-	SECTION:=utils
-	CATEGORY:=Utilities
+	SECTION:=net
+	CATEGORY:=Network
 	SUBMENU:=Telephony
 	TITLE:=Send AT commands to a modem
 	URL:=http://atinout.sourceforge.net/
